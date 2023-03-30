@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.userInfo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (min-width: 768px) {
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+}
+
+.profile-heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #12022f;
+  margin: auto;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768xp) {
+  .profile-heading {
+    font-size: 34px;
+  }
+}
+
+.profile-role {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #616e7c;
+  text-align: center;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .profile-role {
+    font-size: 20px;
+  }
+}
